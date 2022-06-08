@@ -1,4 +1,4 @@
-# Zero Bank Smoke Test
+# Automation Practice Tests
 
 This project tests the website http://automationpractice.com using [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell)
 
@@ -14,12 +14,11 @@ It showcases the use of:
 
 ### Local Installation
 
-
 - Run `$ cd AutomationPratice && npm install` to install cypress in the project folder
 
 ### Docker Installation
 
-### if you use windows P.S: Make sure you have installed Make. Using chocolatey: choco install make
+if you use windows P.S: Make sure you have installed Make. Using chocolatey: choco install make
 
 - Run `$ make docker-build` in the project
 - View the `Makefile` for available docker commands
@@ -41,7 +40,7 @@ For more, see the Makefile
 - `$ npm run cy:test`  - Run tests via command line
 - `$ npm run cy:record` - Run the test with Cypress' Dashboard
 - `$ -s '<pathToFile>'` - Path for the spec files you wish to run
-- `$ -s 'cypress/integration/login.spec.js'` - Example
+- `$ -s 'cypress/integration/formContat.spec.js'` - Example
 
 ### GUI - Any changes made to test files are automatically picked up by the GUI and executed, post file save
 

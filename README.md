@@ -18,7 +18,7 @@ It showcases the use of:
 
 ### Docker Installation
 
-if you use windows P.S: Make sure you have installed Make. Using chocolatey: choco install make
+P.S: if you use windows, make sure you have installed Make. Using chocolatey: choco install make
 
 - Run `$ make docker-build` in the project
 - View the `Makefile` for available docker commands

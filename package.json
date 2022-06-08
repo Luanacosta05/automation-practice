@@ -15,7 +15,7 @@
     "cy:test": "cypress run",
     "cy:open": "cypress open",
     "cy:record": "cypress run --record --key 2fba11ac-fc84-4b6d-a795-9f452d3ffa15"
-},
+  },
   "keywords": [],
   "author": "@luanacosta05",
   "license": "ISC",

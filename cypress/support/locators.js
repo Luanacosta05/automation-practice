@@ -19,16 +19,23 @@ const locators = {
     login: {
         email: '#email',
         password: '#passwd',
-        singin: '#SubmitLogin > span'
+        singin: '#SubmitLogin > span',
     
         },
 
     homePage: {
         email: '#email',
         password: '#passwd',
-        singin: '#SubmitLogin > span'
+        singin: '#SubmitLogin > span',
         
+        },
+
+     alert: {
+        alertButtonMessage: 'ol > li',
+        alertButtonErro: '.alert > p'
+       
         }
+    
 } 
 
 export default locators;

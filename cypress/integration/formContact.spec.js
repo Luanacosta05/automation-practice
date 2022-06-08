@@ -45,7 +45,7 @@ describe("Test Session contact Us", () => {
          cy.get(loc.formContact.orderReference).select(loc.formContent.orderContent)
          cy.get(loc.formContact.product).select(loc.formContent.produtContent)
          cy.get(loc.formContact.send).click()
-         cy.get('ol > li').should('have.text', formMessage.validateMessageField)
+         cy.get(loc.alert.alertButtonMessage).should('have.text', formMessage.validateMessageField)
        });
 
       it('Validate order reference field on contact form ', () => {
@@ -54,7 +54,7 @@ describe("Test Session contact Us", () => {
          cy.get(loc.formContact.email).should('have.value', credential.emailLogin)
          cy.get(loc.formContact.message).type('Form contact Test')
          cy.get(loc.formContact.send).click()
-         cy.get('.alert > p').should('have.text', formMessage.validateOrderField)
+         cy.get(loc.alert.alertButtonMessage).should('have.text', formMessage.validateOrderField)
 
        });
 

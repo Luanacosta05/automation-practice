@@ -14,7 +14,7 @@ It showcases the use of:
 
 ### Local Installation
 
-- Run `$ cd AutomationPratice && npm install` to install cypress in the project folder
+- Run `$ cd automation-practice && npm install` to install cypress in the project folder
 
 ### Docker Installation
 
